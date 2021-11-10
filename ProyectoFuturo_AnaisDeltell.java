@@ -1,7 +1,7 @@
 package proyectofuturo_anaisdeltell;
 
 public class ProyectoFuturo_AnaisDeltell {
-
+//Anais Deltell
     static String media = "5";
 
     static String veredicto(String valor1, String valor2) {
