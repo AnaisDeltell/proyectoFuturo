@@ -4,7 +4,7 @@ public class ProyectoFuturo_AnaisDeltell {
 
     static String media = "5";
 
-    static String veredicto(String valor1, String valor2) {
+    private static String veredicto(String valor1, String valor2) {
         if (valor1.equals(valor2)) {
             return "Bien. Pero una hora de estudio para cada módulo puede ser insuficiente.";
         } else if (Integer.valueOf(valor1) < Integer.valueOf(valor2)) {
